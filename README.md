@@ -111,7 +111,7 @@ the WhatsApp part. Without the VPN the model calls will fail.
    - `OLLAMA_HOST` - the BUas Ollama server URL
    - `GREEN_API_HOST`, `GREEN_API_ID_INSTANCE`, `GREEN_API_TOKEN_INSTANCE` -
      the Green-API credentials for the WhatsApp number
-4. Open `LCB_2_CSC 1 (chat_bot)new_one.ipynb` and run the cells from top to
+4. Open `whatsapp_chatbot.ipynb` and run the cells from top to
    bottom. The first cell checks the Ollama connection. You can chat in the
    notebook with the interactive cell. The last cell starts the WhatsApp loop,
    you only need that one if you have the Green-API credentials set.
@@ -134,11 +134,11 @@ it does not know.
 
 ## Files
 
-- `LCB_2_CSC 1 (chat_bot)new_one.ipynb` - all the code (my part)
+- `whatsapp_chatbot.ipynb` - all the code (my part)
 - `Knowledge_Base/knowledge_compact.txt` - the shop information (teammate's part)
 - `.env.example` - the environment variables to copy to `.env`
 - `requirements.txt` - the two main packages
-- `Gebruikershandleiding_Chatbot.docx`, `User_Manual_Chatbot.docx`,
-  `Chatbot (2).pdf` - the documents, a team effort
+- `docs/Gebruikershandleiding_Chatbot.docx`, `docs/User_Manual_Chatbot.docx`,
+  `docs/chatbot_report.pdf` - the documents, a team effort
 - `Reviews/reviews.json` - created at runtime when the first review is saved.
   This file and `.env` are gitignored.
